@@ -98,14 +98,34 @@ const config: Config = {
           activeBasePath: 'intro',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: 'ComputerScience/',
+          label: 'Computer Science',
           position: 'left',
-          label: 'Tutorial',
+          activeBasePath: 'ComputerScience',
         },
+        {
+          to: 'Programming/',
+          label: 'Programming',
+          position: 'left',
+          activeBasePath: 'Programming',
+        },
+        {
+          to: 'Web/',
+          label: 'Web',
+          position: 'left',
+          activeBasePath: 'Web',
+        },
+        {
+          to: 'Language/',
+          label: 'Language',
+          position: 'left',
+          activeBasePath: 'Language',
+        },
+        
+
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/spnarkhede/guide-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -119,7 +139,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: 'intro',
             },
           ],
         },
