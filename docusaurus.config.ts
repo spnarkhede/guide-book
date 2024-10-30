@@ -1,22 +1,24 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import ci from 'ci-info'
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'My Guide-Book ',
+  tagline: 'What did I learned today...?',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://spnarkhede.github.io',
+  baseUrl: ci.GITHUB_ACTIONS ? '/guide-book/' : '/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // baseUrl: '/guidebook/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'spnarkhede', // Usually your GitHub org/user name.
+  projectName: 'guide-book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,19 +28,20 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'de'],
   },
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: {
+          path: 'docs',
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/spnarkhede/guide-book/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -46,11 +49,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
+          editUrl: 'https://github.com/spnarkhede/guide-book/tree/main/blog',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -62,25 +61,81 @@ const config: Config = {
     ],
   ],
 
-  themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
-    navbar: {
-      title: 'My Site',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+  plugins: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: false,
+        docsDir: 'docs',
+        docsRouteBasePath: '/',
+        language: ['en', 'de'],
+        hashed: true,
       },
+    ],
+  ],
+
+  themeConfig: {
+    respectPrefersColorScheme: true,
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
+    navbar: {
+      title: 'SHUBHAM NARKHEDE',
+      logo: {
+        alt: 'Shubham Narkhede',
+        src: 'img/profile.png',
+      },
+      hideOnScroll: false,
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: 'AboutMe/intro',
+          label: 'About Me',
           position: 'left',
-          label: 'Tutorial',
+          activeBasePath: 'intro',
+        },
+        {
+          to: 'ComputerScience/Programming/Git/GitBasicNotes',
+          label: 'Computer Science',
+          position: 'left',
+          activeBasePath: 'ComputerScience',
+        },
+        // {
+        //   to: 'Programming/Git/GitBasicNotes',
+        //   label: 'Programming',
+        //   position: 'left',
+        //   activeBasePath: 'Programming',
+        // },
+        // {
+        //   to: 'WebTechnologies/Angular/AngularBasicNotes',
+        //   label: 'Web',
+        //   position: 'left',
+        //   activeBasePath: 'Web',
+        // },
+        // {
+        //   to: 'DevOpsTools/Docker/DockerBasicNotes',
+        //   label: 'DevOps Tools',
+        //   position: 'left',
+        //   activeBasePath: 'Language',
+        // },
+        {
+          to: 'BooksReviews/StrategicMindset/StrategicMindset',
+          label: 'Book Reviews',
+          position: 'left',
+          activeBasePath: 'Language',
+        },
+        {
+          to: 'MyLearnings/HardReset/90DaysHardReset',
+          label: 'My Learnings',
+          position: 'left',
+          activeBasePath: 'Language',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/spnarkhede/guide-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -90,11 +145,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Shubham Narkhede',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'About Me',
+              to: 'AboutMe/intro',
             },
           ],
         },
