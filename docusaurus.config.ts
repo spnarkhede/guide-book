@@ -92,7 +92,7 @@ const config: Config = {
       hideOnScroll: false,
       items: [
         {
-          to: 'intro',
+          to: 'AboutMe/intro',
           label: 'About Me',
           position: 'left',
           activeBasePath: 'intro',
@@ -116,13 +116,23 @@ const config: Config = {
           activeBasePath: 'Web',
         },
         {
-          to: 'Language/',
+          to: 'DevOpsTools/',
+          label: 'DevOps Tools',
+          position: 'left',
+          activeBasePath: 'Language',
+        },
+        {
+          to: 'BooksReviews/StrategicMindset/StrategicMindset',
           label: 'Language',
           position: 'left',
           activeBasePath: 'Language',
         },
-        
-
+        {
+          to: 'MyLearnings/',
+          label: 'Language',
+          position: 'left',
+          activeBasePath: 'Language',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/spnarkhede/guide-book',
@@ -135,11 +145,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Shubham Narkhede',
           items: [
             {
-              label: 'Tutorial',
-              to: 'intro',
+              label: 'About Me',
+              to: 'AboutMe/intro',
             },
           ],
         },
