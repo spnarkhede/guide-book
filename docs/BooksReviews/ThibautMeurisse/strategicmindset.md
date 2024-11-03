@@ -6,3 +6,4 @@ authorImageURL: https://github.com/spnarkhede
 tags: [Strategic, Mindset, Book, Learnings]
 --- 
 
+# Strategic Mindset

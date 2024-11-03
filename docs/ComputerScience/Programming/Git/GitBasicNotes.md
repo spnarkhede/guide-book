@@ -1,10 +1,10 @@
 ---
-author: Sabertazimi
-authorTitle: Web Developer
-authorURL: https://github.com/sabertazimi
-authorImageURL: https://github.com/sabertazimi.png
-tags: [Programming, Tools, Git]
----
+author: spnarkhede
+authorTitle: DevOps Engineer
+authorURL: https://github.com/spnarkhede
+authorImageURL: https://github.com/spnarkhede
+tags: [Strategic, Mindset, Book, Learnings]
+--- 
 
 # Git Basic Notes
 

@@ -92,10 +92,16 @@ const config: Config = {
       hideOnScroll: false,
       items: [
         {
-          to: 'AboutMe/intro',
+          to: '/intro',
           label: 'About Me',
           position: 'left',
           activeBasePath: 'intro',
+        },
+        {
+          to: 'Portfolio/Resume',
+          label: 'Portfolio',
+          position: 'left',
+          activeBasePath: 'ComputerScience',
         },
         {
           to: 'ComputerScience/Programming/Git/GitBasicNotes',
@@ -103,27 +109,9 @@ const config: Config = {
           position: 'left',
           activeBasePath: 'ComputerScience',
         },
-        // {
-        //   to: 'Programming/Git/GitBasicNotes',
-        //   label: 'Programming',
-        //   position: 'left',
-        //   activeBasePath: 'Programming',
-        // },
-        // {
-        //   to: 'WebTechnologies/Angular/AngularBasicNotes',
-        //   label: 'Web',
-        //   position: 'left',
-        //   activeBasePath: 'Web',
-        // },
-        // {
-        //   to: 'DevOpsTools/Docker/DockerBasicNotes',
-        //   label: 'DevOps Tools',
-        //   position: 'left',
-        //   activeBasePath: 'Language',
-        // },
         {
-          to: 'BooksReviews/StrategicMindset/StrategicMindset',
-          label: 'Book Reviews',
+          to: 'BooksReviews/ThibautMeurisse/strategicmindset',
+          label: 'Books Reviews',
           position: 'left',
           activeBasePath: 'Language',
         },
@@ -149,7 +137,7 @@ const config: Config = {
           items: [
             {
               label: 'About Me',
-              to: 'AboutMe/intro',
+              to: 'intro',
             },
           ],
         },
@@ -158,7 +146,7 @@ const config: Config = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/spnarkhede',
             },
             {
               label: 'Discord',
@@ -166,7 +154,7 @@ const config: Config = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/snarkhede1996',
             },
           ],
         },
@@ -179,7 +167,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/spnarkhede',
             },
           ],
         },
