@@ -92,13 +92,13 @@ const config: Config = {
       hideOnScroll: false,
       items: [
         {
-          to: 'AboutMe/intro',
+          to: 'docs/AboutMe/intro',
           label: 'About Me',
           position: 'left',
           activeBasePath: 'intro',
         },
         {
-          to: 'ComputerScience/Programming/Git/GitBasicNotes',
+          to: 'docs/ComputerScience/Programming/Git/GitBasicNotes',
           label: 'Computer Science',
           position: 'left',
           activeBasePath: 'ComputerScience',
@@ -122,13 +122,13 @@ const config: Config = {
         //   activeBasePath: 'Language',
         // },
         {
-          to: 'BooksReviews/StrategicMindset/StrategicMindset',
+          to: 'docs/BooksReviews/StrategicMindset/StrategicMindset',
           label: 'Book Reviews',
           position: 'left',
           activeBasePath: 'Language',
         },
         {
-          to: 'MyLearnings/HardReset/90DaysHardReset',
+          to: 'docs/MyLearnings/HardReset/90DaysHardReset',
           label: 'My Learnings',
           position: 'left',
           activeBasePath: 'Language',
