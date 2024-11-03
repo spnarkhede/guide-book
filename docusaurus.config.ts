@@ -92,10 +92,16 @@ const config: Config = {
       hideOnScroll: false,
       items: [
         {
-          to: 'AboutMe/intro',
+          to: '/intro',
           label: 'About Me',
           position: 'left',
           activeBasePath: 'intro',
+        },
+        {
+          to: 'Portfolio/Resume',
+          label: 'Portfolio',
+          position: 'left',
+          activeBasePath: 'ComputerScience',
         },
         {
           to: 'ComputerScience/Programming/Git/GitBasicNotes',
@@ -131,7 +137,7 @@ const config: Config = {
           items: [
             {
               label: 'About Me',
-              to: 'AboutMe/intro',
+              to: 'intro',
             },
           ],
         },
@@ -140,7 +146,7 @@ const config: Config = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/spnarkhede',
             },
             {
               label: 'Discord',
@@ -148,7 +154,7 @@ const config: Config = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/snarkhede1996',
             },
           ],
         },
@@ -161,7 +167,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/spnarkhede',
             },
           ],
         },
