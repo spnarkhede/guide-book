@@ -92,20 +92,50 @@ const config: Config = {
       hideOnScroll: false,
       items: [
         {
-          to: 'intro',
+          to: 'AboutMe/intro',
           label: 'About Me',
           position: 'left',
           activeBasePath: 'intro',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: 'ComputerScience/Programming/Git/GitBasicNotes',
+          label: 'Computer Science',
           position: 'left',
-          label: 'Tutorial',
+          activeBasePath: 'ComputerScience',
+        },
+        // {
+        //   to: 'Programming/Git/GitBasicNotes',
+        //   label: 'Programming',
+        //   position: 'left',
+        //   activeBasePath: 'Programming',
+        // },
+        // {
+        //   to: 'WebTechnologies/Angular/AngularBasicNotes',
+        //   label: 'Web',
+        //   position: 'left',
+        //   activeBasePath: 'Web',
+        // },
+        // {
+        //   to: 'DevOpsTools/Docker/DockerBasicNotes',
+        //   label: 'DevOps Tools',
+        //   position: 'left',
+        //   activeBasePath: 'Language',
+        // },
+        {
+          to: 'BooksReviews/StrategicMindset/StrategicMindset',
+          label: 'Book Reviews',
+          position: 'left',
+          activeBasePath: 'Language',
+        },
+        {
+          to: 'MyLearnings/HardReset/90DaysHardReset',
+          label: 'My Learnings',
+          position: 'left',
+          activeBasePath: 'Language',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/spnarkhede/guide-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -115,11 +145,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Shubham Narkhede',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'About Me',
+              to: 'AboutMe/intro',
             },
           ],
         },
