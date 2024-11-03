@@ -92,43 +92,25 @@ const config: Config = {
       hideOnScroll: false,
       items: [
         {
-          to: 'docs/AboutMe/intro',
+          to: 'AboutMe/intro',
           label: 'About Me',
           position: 'left',
           activeBasePath: 'intro',
         },
         {
-          to: 'docs/ComputerScience/Programming/Git/GitBasicNotes',
+          to: 'ComputerScience/Programming/Git/GitBasicNotes',
           label: 'Computer Science',
           position: 'left',
           activeBasePath: 'ComputerScience',
         },
-        // {
-        //   to: 'Programming/Git/GitBasicNotes',
-        //   label: 'Programming',
-        //   position: 'left',
-        //   activeBasePath: 'Programming',
-        // },
-        // {
-        //   to: 'WebTechnologies/Angular/AngularBasicNotes',
-        //   label: 'Web',
-        //   position: 'left',
-        //   activeBasePath: 'Web',
-        // },
-        // {
-        //   to: 'DevOpsTools/Docker/DockerBasicNotes',
-        //   label: 'DevOps Tools',
-        //   position: 'left',
-        //   activeBasePath: 'Language',
-        // },
         {
-          to: 'docs/BooksReviews/StrategicMindset/StrategicMindset',
-          label: 'Book Reviews',
+          to: 'BooksReviews/ThibautMeurisse/strategicmindset',
+          label: 'Books Reviews',
           position: 'left',
           activeBasePath: 'Language',
         },
         {
-          to: 'docs/MyLearnings/HardReset/90DaysHardReset',
+          to: 'MyLearnings/HardReset/90DaysHardReset',
           label: 'My Learnings',
           position: 'left',
           activeBasePath: 'Language',

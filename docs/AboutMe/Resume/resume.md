@@ -1,3 +1,11 @@
+---
+author: spnarkhede
+authorTitle: DevOps Engineer
+authorURL: https://github.com/spnarkhede
+authorImageURL: https://github.com/spnarkhede
+tags: [Strategic, Mindset, Book, Learnings]
+--- 
+
 # Resume - Shubham Narkhede
 Stuttgart, Germany | +49 171 510 8059 | shubhamnarkhede@gmail.com | [LinkedIn](https://www.linkedin.com/in/spnarkhede/) | [GitHub](https://github.com/spnarkhede)
 
