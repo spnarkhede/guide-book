@@ -1,0 +1,203 @@
+/* Spotify-inspired About Page Styles */
+:root {
+    --spotify-green: #1DB954;
+    --spotify-green-hover: #1ed760;
+    --card-bg-dark: #282828;
+    --card-bg-light: #f7f7f7;
+    --text-primary-dark: #ffffff;
+    --text-primary-light: #121212;
+    --text-secondary-dark: #b3b3b3;
+    --text-secondary-light: #666666;
+    --border-dark: #404040;
+    --border-light: #e0e0e0;
+    --gradient-dark: linear-gradient(135deg, #404040 0%, #282828 100%);
+    --gradient-light: linear-gradient(135deg, #f0f0f0 0%, #ffffff 100%);
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  [data-theme='dark'] .hero-section {
+    background: var(--gradient-dark);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  }
+  
+  [data-theme='light'] .hero-section {
+    background: var(--gradient-light);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Profile Picture */
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid var(--spotify-green);
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(29, 185, 84, 0.2);
+  }
+  
+  .profile-picture:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(29, 185, 84, 0.3);
+  }
+  
+  /* Profile Info */
+  .profile-info {
+    margin-bottom: 2rem;
+  }
+  
+  .profile-info h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--spotify-green);
+  }
+  
+  .profile-info h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+  }
+  
+  /* Social Links */
+  .social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+  .social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background-color: var(--spotify-green);
+    color: white;
+  }
+  
+  .social-link:hover {
+    transform: translateY(-3px);
+    background-color: var(--spotify-green-hover);
+    box-shadow: 0 4px 12px rgba(29, 185, 84, 0.2);
+  }
+  
+  /* Content Cards */
+  .content-section {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .about-card {
+    padding: 2rem;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  [data-theme='dark'] .about-card {
+    background-color: var(--card-bg-dark);
+    border: 1px solid var(--border-dark);
+  }
+  
+  [data-theme='light'] .about-card {
+    background-color: var(--card-bg-light);
+    border: 1px solid var(--border-light);
+  }
+  
+  .about-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  [data-theme='dark'] .about-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  [data-theme='light'] .about-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-card p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin: 0;
+  }
+  
+  [data-theme='dark'] .about-card p {
+    color: var(--text-primary-dark);
+  }
+  
+  [data-theme='light'] .about-card p {
+    color: var(--text-primary-light);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 1rem;
+    }
+  
+    .hero-section {
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+  
+    .profile-picture {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .profile-info h1 {
+      font-size: 2rem;
+    }
+  
+    .profile-info h2 {
+      font-size: 1.1rem;
+    }
+  
+    .about-card {
+      padding: 1.5rem;
+    }
+  
+    .about-card p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .hero-section,
+  .about-card {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
