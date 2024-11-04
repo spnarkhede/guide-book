@@ -1,16 +1,11 @@
 ---
 sidebar_label: 'Introduction'
 sidebar_position: 1
+last_update:
+  date: "2024-11-04" # Update this with the latest date
+  author: "spnarkhede"
 ---
-<!-- 
----
-author: spnarkhede
-authorTitle: DevOps Engineer
-authorURL: https://github.com/spnarkhede
-authorImageURL: https://github.com/spnarkhede
-tags: [Strategic, Mindset, Book, Learnings]
-sidebar_position: 1
---- -->
+
 
 # Intro
 

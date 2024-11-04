@@ -76,109 +76,109 @@ const config: Config = {
     ],
   ],
 
-  themeConfig: {
-    respectPrefersColorScheme: true,
-    docs: {
-      sidebar: {
-        hideable: true,
+    themeConfig: {
+      respectPrefersColorScheme: true,
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
       },
-    },
-    navbar: {
-      title: 'SHUBHAM NARKHEDE',
-      logo: {
-        alt: 'Shubham Narkhede',
-        src: 'img/profile.png',
+      navbar: {
+        title: 'SHUBHAM NARKHEDE',
+        logo: {
+          alt: 'Shubham Narkhede',
+          src: 'img/profile.png',
+        },
+        hideOnScroll: false,
+        items: [
+          {
+            to: '/intro',
+            label: 'About Me',
+            position: 'left',
+            activeBasePath: 'intro',
+          },
+          {
+            to: 'Portfolio/Resume',
+            label: 'Portfolio',
+            position: 'left',
+            activeBasePath: 'ComputerScience',
+          },
+          {
+            to: 'ComputerScience/Programming/Git/GitBasicNotes',
+            label: 'Computer Science',
+            position: 'left',
+            activeBasePath: 'ComputerScience',
+          },
+          {
+            to: 'BooksReviews/ThibautMeurisse/strategicmindset',
+            label: 'Books Reviews',
+            position: 'left',
+            activeBasePath: 'Language',
+          },
+          {
+            to: 'MyLearnings/HardReset/90DaysHardReset',
+            label: 'My Learnings',
+            position: 'left',
+            activeBasePath: 'Language',
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            href: 'https://github.com/spnarkhede/guide-book',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
       },
-      hideOnScroll: false,
-      items: [
-        {
-          to: '/intro',
-          label: 'About Me',
-          position: 'left',
-          activeBasePath: 'intro',
-        },
-        {
-          to: 'Portfolio/Resume',
-          label: 'Portfolio',
-          position: 'left',
-          activeBasePath: 'ComputerScience',
-        },
-        {
-          to: 'ComputerScience/Programming/Git/GitBasicNotes',
-          label: 'Computer Science',
-          position: 'left',
-          activeBasePath: 'ComputerScience',
-        },
-        {
-          to: 'BooksReviews/ThibautMeurisse/strategicmindset',
-          label: 'Books Reviews',
-          position: 'left',
-          activeBasePath: 'Language',
-        },
-        {
-          to: 'MyLearnings/HardReset/90DaysHardReset',
-          label: 'My Learnings',
-          position: 'left',
-          activeBasePath: 'Language',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/spnarkhede/guide-book',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Shubham Narkhede',
-          items: [
-            {
-              label: 'About Me',
-              to: 'intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/spnarkhede',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/snarkhede1996',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/spnarkhede',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    },
-    prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-    },
-  } satisfies Preset.ThemeConfig,
-};
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Shubham Narkhede',
+            items: [
+              {
+                label: 'About Me',
+                to: 'intro',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/spnarkhede',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/snarkhede1996',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/spnarkhede',
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} Guide Book by Shubham Narkhede`,
+      },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+    } satisfies Preset.ThemeConfig,
+  }
 
 export default config;
