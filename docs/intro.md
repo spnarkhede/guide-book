@@ -2,51 +2,54 @@
 sidebar_label: 'Introduction'
 sidebar_position: 1
 last_update:
-  date: "2024-11-04" # Update this with the latest date
+  date: "2024-11-04"
   author: "spnarkhede"
 ---
+# Introduction 
 
 
-# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+import { Github, Linkedin, Mail } from 'lucide-react';
 
-## Getting Started
+<div className="about-container">
+  <div className="hero-section">
+    <img className="profile-picture" src={require('../static/img/profilesquare.png').default} alt="profile"/>
+    
+    <div className="profile-info">
+      <h1>Shubham Narkhede</h1>
+      <h2>DevOps Engineer @ Robert Bosch GmbH</h2>
+      
+      <div className="social-links">
+        <a href="https://github.com/spnarkhede" className="social-link">
+          <Github size={20} />
+        </a>
+        <a href="https://linkedin.com/in/spnarkhede" className="social-link">
+          <Linkedin size={20} />
+        </a>
+        <a href="mailto:shubhampnarkhede@gmail.com" className="social-link">
+          <Mail size={20} />
+        </a>
+      </div>
+    </div>
+  </div>
 
-Get started by **creating a new site**.
+  <div className="content-section">
+    <div className="about-card">
+      <p>
+        My name is Shubham Narkhede. I currently work for Robert Bosch GmbH as a DevOps Engineer. I prefer more frontend or DevOps work, but I consider myself to be a full-stack developer. If you have ever heard the phrase <b>"A curious mind, constantly seeking knowledge and applying it to real-world challenges.,"</b> I think that phrase describes me pretty well. I like to learn new things and get my hands dirty with a little bit of everything if possible. While some people like to hyperfocus on one aspect of computing, I like to take a broader vision. I like to have a decent understanding of everything so I have a breadth of knowledge. This helps me understand the larger flow. If you understand all the little things, then the bigger picture becomes clear. I believe this is what has made me exceedingly good at debugging and solving problems over the years.
+      </p>
+    </div>
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+    <div className="about-card">
+      <p>
+      I have a personal interest in product designing and cloud technologies. I have created various applications from scratch with Brainstorming, UI/UX designing, Prototyping and wireframing. Lately, I have just been trying to apply neural networks to various tasks and experimenting with different architectures. I have even made a neural network visualization program. I hope to continue developing my knowledge and start implementing some of my own neural network algorithms I have brainstormed over the past few years. Long term, I would like to work on autonomous vehicles or autonomous manufacturing robots.
+      </p>
+    </div>
 
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+    <div className="about-card">
+      <p>
+        Aside from deep learning projects, I dabble in a little bit of everything. This portfolio site showcases a fraction of the projects I have done over the years. I have written my own shell in C. I have written my own assembler and accompanying simulator for that assembler. I have written my own digit recognition canvas application. I have written a data cache simulator. I have created personal automation tools for my desktop. I have written ability trackers for video games. You name it, and I have probably attempted to program it or read about it.
+      </p>
+    </div>
+  </div>
+</div>
