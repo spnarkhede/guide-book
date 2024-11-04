@@ -2,33 +2,9 @@ spnarkhede:
   name: Shubham Narkhede
   title: DevOps Engineer @Robert Bosch GmbH
   url: https://github.com/spnarkhede
-  image_url: https://github.com/spnarkhede
+  image_url: https://github.com/spnarkhede.png
   page: true
   socials:
-    x: snarkhede
+    x: snarkhede1996
     github: spnarkhede
-    linkedin: sebastienlorber
-
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-  page: true
-  socials:
-    x: yangshunz
-    github: yangshun
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    linkedin: spnarkhede

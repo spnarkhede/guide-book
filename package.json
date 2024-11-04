@@ -10,6 +10,7 @@
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
+    "watch-markdown": "chokidar 'docs/**/*.md' -c 'node updateMarkdown.js'",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc"
@@ -20,6 +21,7 @@
     "@easyops-cn/docusaurus-search-local": "^0.45.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "emailjs-com": "^3.2.0",
     "katex": "^0.16.11",
     "lucide-react": "^0.454.0",
     "prism-react-renderer": "^2.3.0",
@@ -32,6 +34,9 @@
     "@docusaurus/module-type-aliases": "3.5.2",
     "@docusaurus/tsconfig": "3.5.2",
     "@docusaurus/types": "3.5.2",
+    "chokidar-cli": "^3.0.0",
+    "install": "^0.13.0",
+    "npm": "^10.9.0",
     "typescript": "~5.5.2"
   },
   "browserslist": {
