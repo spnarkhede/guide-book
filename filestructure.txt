@@ -318,7 +318,7 @@
         |-- pdf
             |-- coursera_certificate1.pdf
             |-- google_certificate1.pdf
-            |-- google_Certificate2.pdf
+            |-- google_certificate2.pdf
             |-- ibm_certificate1.pdf
             |-- ibm_certificate2.pdf
             |-- learnvern_certificate1.pdf
