@@ -26,7 +26,7 @@ sidebar_position: 2
 
 | Amazon Web Services |   |   
 |---------------------------------|---|
-| [![AWS Certificate 1](./img/aws_certificate1.jpg)] | [![AWS Certificate 2](./img/aws_certificate2.jpg)] | 
+| ![AWS Certificate 1](./img/aws_certificate1.jpg) | ![AWS Certificate 2](./img/aws_certificate2.jpg) | 
 
 <!-- [![AWS Certificate 3](./img/aws_certificate3.png)](./pdf/aws_certificate3.pdf) |
 | [![AWS Certificate 4](./img/aws_certificate4.png)](./pdf/aws_certificate4.pdf) | [![AWS Certificate 5](./img/aws_certificate5.png)](./pdf/aws_certificate5.pdf) | [![AWS Certificate 6](./img/aws_certificate6.png)](./pdf/aws_certificate6.pdf) |
