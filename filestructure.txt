@@ -317,7 +317,7 @@
             |-- udemy_certificate9.jpg
         |-- pdf
             |-- coursera_certificate1.pdf
-            |-- Google_Certificate1.pdf
+            |-- google_certificate1.pdf
             |-- google_Certificate2.pdf
             |-- ibm_certificate1.pdf
             |-- ibm_certificate2.pdf

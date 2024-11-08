@@ -10,7 +10,7 @@ sidebar_position: 2
  
 | Google Certificates |   | 
 |---------------------|---|
-| [![Google Certificate 1](./img/google_certificate1.png)](./pdf/google_certificate1.pdf) | [![Google Certificate 2](./img/google_certificate2.png)](./pdf/google_certificate2.pdf) |
+|[![Google Certificate 1](./img/google_certificate1.png)](./pdf/google_certificate1.pdf) | [![Google Certificate 2](./img/google_certificate2.png)](./pdf/google_certificate2.pdf) |
 
 <!-- | [![Google Certificate 3](./img/google_certificate3.png)](./pdf/google_certificate3.pdf) |
 | [![Google Certificate 4](./img/google_certificate4.png)](./pdf/google_certificate4.pdf) | [![Google Certificate 5](./img/google_certificate5.png)](./pdf/google_certificate5.pdf) | [![Google Certificate 6](./img/google_certificate6.png)](./pdf/google_certificate6.pdf) |
