@@ -140,6 +140,8 @@
             |-- site-docs-books-reviews-thibaut-meurisse-strategicmindset-md-b07.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-basic-notes-md-fbd.json
             |-- site-docs-computer-science-programming-git-git-basic-notes-md-315.json
+            |-- site-docs-computer-science-programming-vim-vim-basic-notes-md-da8.json
+            |-- site-docs-computer-science-programming-vim-vim-cheat-sheet-md-4a6.json
             |-- site-docs-computer-science-web-technologies-angular-angular-basic-notes-md-08d.json
             |-- site-docs-computer-science-web-technologies-css-bootstrap-basic-notes-md-394.json
             |-- site-docs-computer-science-web-technologies-css-css-advanced-notes-md-413.json
@@ -149,9 +151,12 @@
             |-- site-docs-computer-science-web-technologies-css-css-design-notes-md-da8.json
             |-- site-docs-computer-science-web-technologies-css-css-layout-notes-md-12f.json
             |-- site-docs-computer-science-web-technologies-css-sass-basic-notes-md-293.json
+            |-- site-docs-computer-science-web-technologies-html-html-basic-notes-md-4d3.json
             |-- site-docs-dev-ops-tools-docker-docker-basic-notes-md-1d9.json
             |-- site-docs-intro-md-0e3.json
+            |-- site-docs-my-learnings-hard-reset-50-psychology-skills-md-7f6.json
             |-- site-docs-my-learnings-hard-reset-90-days-hard-reset-md-26e.json
+            |-- site-docs-my-learnings-hard-reset-life-formula-md-7a0.json
             |-- site-docs-portfolio-certificates-md-e61.json
             |-- site-docs-portfolio-resume-md-0bb.json
             |-- site-docs-portfolio-resume-md-906.json
@@ -245,9 +250,13 @@
             |-- Git
                 |-- figures
                     |-- 6_free_software_licenses.png
+                    |-- gitcheatsheet.png
                     |-- GitObjects.webp
                     |-- GitPackfile.webp
                 |-- GitBasicNotes.md
+            |-- Vim
+                |-- VimBasicNotes.md
+                |-- VimCheatSheet.md
             |-- _category_.json
         |-- UIUXTopics
         |-- WebTechnologies
@@ -255,12 +264,16 @@
                 |-- AngularBasicNotes.md
             |-- CSS
                 |-- BootstrapBasicNotes.md
+            |-- HTML
+                |-- HTMLBasicNotes.md
             |-- _category_.json
         |-- _category_.json
     |-- intro.md
     |-- MyLearnings
         |-- HardReset
+            |-- 50PsychologySkills.md
             |-- 90DaysHardReset.md
+            |-- LifeFormula.md
         |-- _category_.json
     |-- Portfolio
         |-- Certificates.md
