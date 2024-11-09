@@ -4,6 +4,9 @@ authorTitle: DevOps Engineer
 authorURL: https://github.com/spnarkhede
 authorImageURL: https://github.com/spnarkhede
 tags: [Strategic, Mindset, Book, Learnings]
+last_update:
+  date: "2018-01-09"
+  author: "spnarkhede"
 --- 
 
 # 🔥 90 Days of Hard Reset Challenge
