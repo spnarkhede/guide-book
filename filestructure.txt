@@ -69,11 +69,16 @@
                 |-- de-tags-angular-5cd.json
                 |-- de-tags-b38.json
                 |-- de-tags-book-661.json
+                |-- de-tags-books-3ff.json
                 |-- de-tags-bootstrap-48a.json
                 |-- de-tags-css-fc2.json
+                |-- de-tags-emotion-d99.json
+                |-- de-tags-learing-007.json
                 |-- de-tags-learnings-167.json
+                |-- de-tags-master-cb3.json
                 |-- de-tags-mindset-8b6.json
                 |-- de-tags-strategic-15d.json
+                |-- de-tags-summary-e6c.json
                 |-- de-tags-web-10d.json
                 |-- docs-175.json
                 |-- docs-category-tutorial-basics-ea4.json
@@ -91,6 +96,7 @@
                 |-- tags-b9f.json
                 |-- tags-bom-c71.json
                 |-- tags-book-6d4.json
+                |-- tags-books-0f1.json
                 |-- tags-bootstrap-c6b.json
                 |-- tags-certificates-b95.json
                 |-- tags-css-369.json
@@ -99,6 +105,7 @@
                 |-- tags-dom-cd0.json
                 |-- tags-ecma-script-5f5.json
                 |-- tags-electron-f43.json
+                |-- tags-emotion-f35.json
                 |-- tags-express-7ff.json
                 |-- tags-framework-cd6.json
                 |-- tags-git-797.json
@@ -107,8 +114,12 @@
                 |-- tags-j-query-938.json
                 |-- tags-java-script-5ac.json
                 |-- tags-layout-713.json
+                |-- tags-learin-d70.json
+                |-- tags-learing-42b.json
+                |-- tags-learinng-dc4.json
                 |-- tags-learnings-cda.json
                 |-- tags-library-76a.json
+                |-- tags-master-4c4.json
                 |-- tags-message-queue-50c.json
                 |-- tags-mindset-df1.json
                 |-- tags-network-2f8.json
@@ -123,6 +134,7 @@
                 |-- tags-security-e36.json
                 |-- tags-state-management-ca7.json
                 |-- tags-strategic-ea8.json
+                |-- tags-summary-a9b.json
                 |-- tags-testing-a31.json
                 |-- tags-tools-a72.json
                 |-- tags-type-script-916.json
@@ -135,6 +147,7 @@
             |-- site-docs-books-reviews-strategic-mindset-md-059.json
             |-- site-docs-books-reviews-strategic-mindset-md-368.json
             |-- site-docs-books-reviews-strategic-mindset-strategic-mindset-md-e60.json
+            |-- site-docs-books-reviews-thibaut-meurisse-master-your-emotion-md-b1d.json
             |-- site-docs-books-reviews-thibaut-meurisse-strategic-mindset-md-20f.json
             |-- site-docs-books-reviews-thibaut-meurisse-strategicmindset-md-7d1.json
             |-- site-docs-books-reviews-thibaut-meurisse-strategicmindset-md-b07.json
@@ -239,6 +252,14 @@
     |-- BooksReviews
         |-- ThibautMeurisse
             |-- images
+                |-- masteruremotion1.jpg
+                |-- masteruremotion2.jpg
+                |-- masteruremotion3.jpg
+                |-- masteruremotion4.jpg
+                |-- masteruremotion5.jpg
+                |-- masteruremotion6.jpg
+                |-- strategicmindset.png
+            |-- MasterYourEmotion.md
             |-- strategicmindset.md
         |-- _category_.json
     |-- ComputerScience
