@@ -8,7 +8,7 @@ sidebar_position: 1
 --- 
 
 # Resume - Shubham Narkhede
-Stuttgart, Germany | +49 171 510 8059 | shubhamnarkhede@gmail.com | [LinkedIn](https://www.linkedin.com/in/spnarkhede/) | [GitHub](https://github.com/spnarkhede)
+Stuttgart, Germany | +49 171 510 8059 | shubhamnarkhede@gmail.com | [LinkedIn](https://www.linkedin.com/in/spnarkhede/) | [GitHub](https://github.com/spnarkhede) | [Website](https://portfolio-insta-one.vercel.app/) | [Guide-Book](https://guide-book.vercel.app/intro)
 
 ## PROFESSIONAL SUMMARY
 High-performing IT professional with over 5 years of experience, demonstrating a passion for managing and guiding cross-functional, agile international teams. My expertise lies in planning and executing the entire process of IT projects with a robust awareness of agile methodologies, including SCRUM. Skilled in requirement engineering, UX design thinking, defining user stories, and meeting business desires in Digital Transformation. With a strong foundation in software architecture and development, web technologies, and database systems, I excel in agile software development. Additionally, I have a talent for developing mature programs and rollout strategies, ensuring effective project coordination, and presenting project updates in steering committees.
