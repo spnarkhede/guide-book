@@ -1,19 +1,34 @@
-facebook:
-  label: Facebook
-  permalink: /spnarkhede
-  description: Facebook tag description
+technology:
+  label: Technology
+  permalink: /technology
+  description: Posts related to the latest technology trends, tools, and insights.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+learning:
+  label: Learning
+  permalink: /learning
+  description: Articles and reflections on personal and professional growth, and continuous learning.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+inventions:
+  label: Inventions
+  permalink: /inventions
+  description: Insights into innovative inventions and groundbreaking ideas shaping the future.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+concepts:
+  label: Concepts
+  permalink: /concepts
+  description: Explorations of key concepts in various fields, providing foundational understanding.
+
+programming:
+  label: Programming
+  permalink: /programming
+  description: Resources, tips, and tutorials on coding, development, and software engineering.
+
+paintings:
+  label: Paintings
+  permalink: /paintings
+  description: Showcasing artwork, including paintings and creative expressions.
+
+skills:
+  label: Skills
+  permalink: /skills
+  description: Discussions on skill-building, practical tips, and mastering new abilities.

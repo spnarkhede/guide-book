@@ -18,12 +18,20 @@
                 |-- blog-authors-spnarkhede-d5a.json
                 |-- blog-authors-yangshun-af2.json
                 |-- blog-bd9.json
+                |-- blog-tags-articles-f9b.json
+                |-- blog-tags-concepts-f07.json
                 |-- blog-tags-df9.json
+                |-- blog-tags-docusaturus-832.json
                 |-- blog-tags-docusaurus-f20.json
                 |-- blog-tags-facebook-f47.json
                 |-- blog-tags-hello-f96.json
                 |-- blog-tags-hola-73f.json
+                |-- blog-tags-ideas-26f.json
+                |-- blog-tags-learning-5c1.json
+                |-- blog-tags-psychology-dc3.json
                 |-- blog-tags-spnarkhede-a0e.json
+                |-- blog-tags-technolo-558.json
+                |-- blog-tags-technology-3f2.json
                 |-- de-blog-10b.json
                 |-- de-blog-archive-247.json
                 |-- de-blog-authors-9f2.json
@@ -55,8 +63,12 @@
                 |-- guidebook-blog-tags-facebook-d87.json
                 |-- guidebook-blog-tags-hello-8d6.json
                 |-- guidebook-blog-tags-hola-eda.json
+            |-- site-blog-2018-2018-01-05-futureofai-md-1aa.json
+            |-- site-blog-2018-2018-01-12-readbodylanguagelikefbi-md-2a3.json
+            |-- site-blog-2018-2018-01-12-readbodylanguagelikefbi-mdx-e35.json
             |-- site-blog-2019-05-28-first-blog-post-md-e27.json
             |-- site-blog-2019-05-29-long-blog-post-md-736.json
+            |-- site-blog-2021-08-01-mdx-blog-post-md-274.json
             |-- site-blog-2021-08-01-mdx-blog-post-mdx-593.json
             |-- site-blog-2021-08-26-welcome-index-md-d9f.json
             |-- __plugin.json
@@ -153,6 +165,7 @@
             |-- site-docs-books-reviews-thibaut-meurisse-strategicmindset-md-b07.json
             |-- site-docs-computer-science-dev-ops-tools-docker-docker-basic-notes-md-fbd.json
             |-- site-docs-computer-science-programming-git-git-basic-notes-md-315.json
+            |-- site-docs-computer-science-programming-nvm-nvm-user-guide-md-879.json
             |-- site-docs-computer-science-programming-vim-vim-basic-notes-md-da8.json
             |-- site-docs-computer-science-programming-vim-vim-cheat-sheet-md-4a6.json
             |-- site-docs-computer-science-web-technologies-angular-angular-basic-notes-md-08d.json
@@ -240,12 +253,24 @@
 |-- .gitignore
 |-- babel.config.js
 |-- blog
-    |-- 2019-05-28-first-blog-post.md
-    |-- 2019-05-29-long-blog-post.md
-    |-- 2021-08-01-mdx-blog-post.mdx
-    |-- 2021-08-26-welcome
-        |-- docusaurus-plushie-banner.jpeg
-        |-- index.md
+    |-- 2018
+        |-- 2018-01-05-futureofai.md
+        |-- 2018-01-12-readbodylanguagelikefbi.mdx
+        |-- images
+            |-- blog1_futureai.png
+    |-- 2019
+        |-- images
+    |-- 2020
+        |-- images
+    |-- 2021
+        |-- images
+    |-- 2021-08-01-mdx-blog-post.md
+    |-- 2022
+        |-- images
+    |-- 2023
+        |-- images
+    |-- 2024
+        |-- images
     |-- authors.yml
     |-- tags.yml
 |-- docs
@@ -259,6 +284,14 @@
                 |-- masteruremotion5.jpg
                 |-- masteruremotion6.jpg
                 |-- strategicmindset.png
+                |-- strategicmindset1.jpg
+                |-- strategicmindset2.jpg
+                |-- strategicmindset3.jpg
+                |-- strategicmindset4.jpg
+                |-- strategicmindset5.jpg
+                |-- strategicmindset6.jpg
+                |-- strategicmindset7.jpg
+                |-- strategicmindset8.jpg
             |-- MasterYourEmotion.md
             |-- strategicmindset.md
         |-- _category_.json
@@ -275,6 +308,8 @@
                     |-- GitObjects.webp
                     |-- GitPackfile.webp
                 |-- GitBasicNotes.md
+            |-- Nvm
+                |-- NvmUserGuide.md
             |-- Vim
                 |-- VimBasicNotes.md
                 |-- VimCheatSheet.md

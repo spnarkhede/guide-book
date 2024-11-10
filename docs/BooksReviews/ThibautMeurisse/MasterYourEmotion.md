@@ -82,7 +82,11 @@ A wrap-up emphasizing that emotional mastery is a lifelong journey. By consisten
 
 ---
 
-### 🧠Key Takeaways
+:::tip Key Takeaways
+
 - Emotions are deeply connected to our thoughts and can be managed through awareness and deliberate action.
 - Environment, habits, and self-talk all play crucial roles in emotional health.
 - Building resilience and letting go of negativity are keys to a balanced, joyful life.
+
+:::
+

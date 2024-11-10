@@ -28,21 +28,14 @@ The book concludes with a reminder that success is a process of constant improve
 
 ---
 
-### 🧠Key Takeaways
-1. **Clarity of Purpose**: Define clear, specific goals and priorities. Knowing what you want to achieve allows you to direct energy toward meaningful tasks and avoid distractions.
+:::tip Key Takeaways
 
-2. **Strategic Decision-Making**: Use mental models and strategic thinking to make more informed and effective decisions. Being intentional with choices leads to better outcomes.
-
+1. **Clarity of Purpose**: Define clear, specific goals and priorities. Knowing what you want to achieve allows you to direct energy toward meaningful tasks and avoid distractions. 
+2. **Strategic Decision-Making**: Use mental models and strategic thinking to make more informed and effective decisions. Being intentional with choices leads to better outcomes. 
 3. **Self-Discipline and Consistency**: Success comes from small, consistent actions. Discipline is crucial to stay on course, even when motivation fluctuates.
-
 4. **Resilience and Adaptability**: Obstacles and setbacks are inevitable. Embrace them as opportunities to learn and adapt, using failure as a stepping stone to improvement.
-
 5. **Continuous Growth and Learning**: Cultivate a growth mindset, always seeking to improve skills, expand knowledge, and challenge limiting beliefs.
-
 6. **Time and Energy Management**: Focus on high-impact activities. Prioritize tasks that align with your goals and use time management techniques to enhance productivity.
-
 7. **Personal Accountability**: Take responsibility for outcomes and avoid excuses. Accountability is essential for building a mindset that seeks results rather than comfort.
 
----
-
-*Strategic Mindset* serves as a toolkit for anyone wanting to improve their focus, efficiency, and resilience on the path to personal and professional success.
+:::
