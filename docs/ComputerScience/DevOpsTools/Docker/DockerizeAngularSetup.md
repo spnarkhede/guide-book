@@ -1,4 +1,4 @@
-# Dockerize Angular Project Setup
+# Dockerize Angular Setup
 
 This guide will help you set up and dockerize an Angular application with Nginx.
 
