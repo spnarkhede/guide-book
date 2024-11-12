@@ -92,7 +92,55 @@ This guide will help you set up and dockerize an Angular application with Nginx.
    CMD ["nginx", "-g", "daemon off;"]
    ```
 
-2. Create a folder named `nginx` in the root directory and add the `confignginx.conf` file for custom NGINX configuration.
+2. Setting up the Nginx Configuration Folder and File
+- Create a folder named `nginx` in the root directory and add the `confignginx.conf` file for custom NGINX configuration.
+  Here's an improved version of the Nginx folder setup instructions:
+
+1. In the root directory of your `dockerize-angular` project, create a folder named `nginx`.
+2. Inside the `nginx` folder, create a file called `confignginx.conf` for custom Nginx configuration.
+
+   The project structure should look like this:
+
+   ```
+   dockerize-angular (root folder)
+   ├── nginx
+   │   └── confignginx.conf
+   ```
+
+3. Add the following content to `confignginx.conf`:
+
+   ```nginx
+   server {
+       listen       8080;
+       listen       [::]:8080;
+       server_name  0.0.0.0;
+
+       # Serve the main Angular application
+       location / {
+           proxy_pass_request_headers on;
+           proxy_pass_header Authorization;
+           root   /app/dockerize-angular/nginx/html/;
+           try_files $uri /index.html;
+       }
+
+       # Route requests to the Angular Portal API
+       location /dockerize-angular/api {
+           proxy_pass http://dockerize-angular;
+           resolver 10.100.0.10;
+           proxy_pass_request_headers on;
+           proxy_pass_header Authorization;
+       }
+
+       # Error handling
+       error_page   500 502 503 504  /50x.html;
+       location = /50x.html {
+           root   /usr/share/nginx/html;
+       }
+   }
+   ```
+- This configuration serves the Angular app on port 8080 and includes routing for `/dockerize-angular/api` with error handling for server errors.
+
+ 
 
 ## Building and Running the Docker Container
 
