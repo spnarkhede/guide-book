@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Dockerize Angular Setup
 
 This guide will help you set up and dockerize an Angular application with Nginx.
