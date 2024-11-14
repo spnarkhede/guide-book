@@ -102,7 +102,7 @@ const config: Config = {
             to: 'Portfolio/Resume',
             label: 'Portfolio',
             position: 'left',
-            activeBasePath: 'ComputerScience',
+            activeBasePath: 'Portfolio',
           },
           {
             to: 'ComputerScience/Programming/Git/GitBasicNotes',
@@ -114,13 +114,19 @@ const config: Config = {
             to: 'BooksReviews/ThibautMeurisse/strategicmindset',
             label: 'Books Reviews',
             position: 'left',
-            activeBasePath: 'Language',
+            activeBasePath: 'BookReviews',
           },
           {
             to: 'MyLearnings/HardReset/90DaysHardReset',
             label: 'My Learnings',
             position: 'left',
-            activeBasePath: 'Language',
+            activeBasePath: 'MyLearnings',
+          },
+          {
+            to: 'Languages/German/GermanCheatSheet1',
+            label: 'Languages',
+            position: 'left',
+            activeBasePath: 'Languages',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
