@@ -32,3 +32,68 @@ skills:
   label: Skills
   permalink: /skills
   description: Discussions on skill-building, practical tips, and mastering new abilities.
+
+psychology:
+  label: Psychology
+  permalink: /psychology
+  description: Insights into human behavior, mental health, and personal development.
+
+mindset:
+  label: Mindset
+  permalink: /mindset
+  description: Posts about cultivating a positive and growth-oriented mindset.
+
+leadership:
+  label: Leadership
+  permalink: /leadership
+  description: Strategies, reflections, and best practices for effective leadership.
+
+innovation:
+  label: Innovation
+  permalink: /innovation
+  description: Exploring cutting-edge ideas and creative approaches that drive progress.
+
+creativity:
+  label: Creativity
+  permalink: /creativity
+  description: Inspiration, techniques, and ideas for nurturing creativity in various forms.
+
+productivity:
+  label: Productivity
+  permalink: /productivity
+  description: Tips and strategies to enhance efficiency and get the most out of your day.
+
+philosophy:
+  label: Philosophy
+  permalink: /philosophy
+  description: Thought-provoking discussions on life, ethics, and the human experience.
+
+design:
+  label: Design
+  permalink: /design
+  description: Topics on aesthetics, user experience, and innovative design principles.
+
+books:
+  label: Books
+  permalink: /books
+  description: Book reviews, recommendations, and discussions on literature and knowledge.
+
+art:
+  label: Art
+  permalink: /art
+  description: Creative expressions, techniques, and inspirations across various artistic mediums.
+
+exploration:
+  label: Exploration
+  permalink: /exploration
+  description: Discoveries and adventures in learning, technology, and creativity.
+
+strategy:
+  label: Strategy
+  permalink: /strategy
+  description: Approaches and methods for achieving goals effectively.
+
+teamwork:
+  label: Teamwork
+  permalink: /teamwork
+  description: Insights into collaboration, building teams, and working effectively with others.

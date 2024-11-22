@@ -110,6 +110,7 @@ const config: Config = {
             position: 'left',
             activeBasePath: 'ComputerScience',
           },
+          {to: '/books', label: 'Books', position: 'left'},
           {
             to: 'BooksReviews/ThibautMeurisse/strategicmindset',
             label: 'Books Reviews',

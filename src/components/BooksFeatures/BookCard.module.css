@@ -1,0 +1,88 @@
+.bookCard {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bookCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .bookCover {
+    position: relative;
+    padding-top: 120%; /* Reduced from 150% to make images smaller */
+    overflow: hidden;
+  }
+  
+  .bookCover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .bookInfo {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bookInfo h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    color: var(--ifm-color-primary-darkest);
+    line-height: 1.4;
+  }
+  
+  .author {
+    color: var(--ifm-color-emphasis-700);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .actions {
+    margin-top: auto;
+    display: flex;
+    gap: 0.75rem;
+  }
+  
+  .buyLink,
+  .reviewLink {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    flex: 1;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  
+  .buyLink {
+    background-color: var(--ifm-color-primary);
+    color: white;
+  }
+  
+  .buyLink:hover {
+    background-color: var(--ifm-color-primary-darker);
+    color: white;
+    text-decoration: none;
+  }
+  
+  .reviewLink {
+    background-color: var(--ifm-color-emphasis-200);
+    color: var(--ifm-color-emphasis-800);
+  }
+  
+  .reviewLink:hover {
+    background-color: var(--ifm-color-emphasis-300);
+    text-decoration: none;
+  }

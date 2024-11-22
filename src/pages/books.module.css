@@ -1,0 +1,27 @@
+.booksContainer {
+    max-width: var(--ifm-container-width);
+    margin: 0 auto;
+    padding: 2rem var(--ifm-spacing-horizontal);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+    background: linear-gradient(to right, var(--ifm-color-primary-lightest), var(--ifm-color-primary-light));
+    border-radius: 12px;
+    color: var(--ifm-color-emphasis-900);
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--ifm-color-emphasis-900);
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: var(--ifm-color-emphasis-700);
+    max-width: 600px;
+    margin: 0 auto;
+  }

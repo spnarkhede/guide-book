@@ -303,4 +303,3 @@ class Component {
 <div [class.special]="isSpecial">The class binding is special</div>
 <div class="special" [class.special]="!isSpecial">This one is not so special</div>
 ```
-```
