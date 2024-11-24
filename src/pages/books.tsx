@@ -82,7 +82,7 @@ import {
   indiaThatIsBharat,
   bossBasicsOfSanatanSanskriti,
   vaidikDincharya,
-} from "./image/cover/cover";
+} from "./images/cover";
 
 const books = [
   {

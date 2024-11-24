@@ -2,7 +2,7 @@
 slug: Former FBI Agent Explains How to Read Body Language
 title: Former FBI Agent Explains How to Read Body Language
 authors: [spnarkhede]
-tags: [psychology, learning, ideas, articles, concepts]
+tags: [psychology, learning, leadership, books, concepts]
 ---
 
 In this video, former FBI agent Joe Navarro shares insights from his 25-year career, focusing on how to interpret nonverbal cues—commonly known as body language. Navarro, who worked in the FBI’s National Security Division, utilized these skills in espionage investigations, highlighting how body language plays a critical role in communication, relationship-building, and, for him, identifying potential threats.
