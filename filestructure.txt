@@ -494,9 +494,90 @@
         |-- books.tsx
         |-- image
             |-- cover
+                |-- accounting101.jpg
+                |-- almanackOfNavalRavikant.jpg
+                |-- americanGovernment101.png
+                |-- atomicHabits.png
+                |-- bookOnRentalPropertyInvesting.jpg
+                |-- bossBasicsOfSanatanSanskriti.jpg
+                |-- chanakyas100BestSutras.jpg
+                |-- coachingHabit.jpg
+                |-- communicationSkillsBible.png
+                |-- compoundEffect.jpg
+                |-- concise48LawsOfPower.jpg
+                |-- conciseArtOfSeduction.jpg
+                |-- conciseLawsOfHumanNature.jpg
+                |-- conciseStrategiesOfWar.jpg
+                |-- corporateChanakya.png
+                |-- courageToBeDisliked.png
                 |-- cover.ts
+                |-- crucialConversations.png
+                |-- dailyLaws.jpg
+                |-- dailyStoic.jpg
+                |-- dareToLead.jpg
+                |-- deepWork.jpg
+                |-- doitToday.png
+                |-- dopamineDetox.png
+                |-- economics101.jpg
+                |-- egoistheEnemy.png
+                |-- eightRulesOfLove.jpg
+                |-- eightyTwentyPrinciple.png
+                |-- emotionalIntelligence.png
+                |-- fineArtOfSmallTalk.jpg
+                |-- fourThousandWeeks.jpg
+                |-- hindusInHinduRashtra.jpg
+                |-- howToStopWorrying.jpg
+                |-- howToTalkToAnyone.jpg
+                |-- howToTalkToAnyone2.png
+                |-- howToWinFriends.png
+                |-- ikigai.png
+                |-- immediateaction.png
+                |-- indiaThatIsBharat.jpg
+                |-- investing101.jpg
+                |-- invisibleWomen.jpg
+                |-- kautileeyaArthshastra.jpg
+                |-- lifeAndWorkPrinciples.png
+                |-- management101.jpg
+                |-- masterYourBeliefs.png
+                |-- masterYourDestiny.jpg
+                |-- masterYourEmotions.jpg
+                |-- masterYourFocus.jpg
+                |-- masterYourMindset.png
+                |-- masterYourMotivation.jpg
+                |-- masterYourThinking.jpg
+                |-- masterYourTime.jpg
+                |-- menAreFromMarsWomenAreFromVenus.png
+                |-- millionaireFastlane.png
+                |-- mindset.png
+                |-- negotiating101.jpg
+                |-- neverSplitTheDifference.jpg
+                |-- oneHundredOneEssays.jpg
+                |-- oneSuccessHabit.jpg
+                |-- philosophy101.jpg
+                |-- powerfulFocus.jpg
+                |-- psych101.jpg
+                |-- psychologyOfMoney.png
+                |-- radicalCandorBoss.jpg
+                |-- radicalCandorRevised.jpg
+                |-- readPeopleLikeABook.jpg
+                |-- relentless.jpg
+                |-- sameAsEver.jpg
+                |-- stockMarket101.jpg
                 |-- strategicmindset.jpg
+                |-- surroundedByBadBosses.jpg
+                |-- surroundedByIdiots.png
+                |-- surroundedByLiars.png
+                |-- surroundedByNarcissists.jpg
+                |-- surroundedByPsychopaths.jpg
+                |-- surroundedBySetbacks.jpg
+                |-- teamTopologies.jpg
+                |-- thankGodForFeedback.jpg
+                |-- thanksForFeedback.jpg
+                |-- thealchemist.png
+                |-- theEmotionalReset.png
                 |-- thepersonalmba.jpg
+                |-- usHistory101.jpg
+                |-- vaidikDincharya.jpg
             |-- profilepic.png
             |-- profilesquare.png
         |-- index.module.css

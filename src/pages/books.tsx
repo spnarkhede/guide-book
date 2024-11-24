@@ -53,6 +53,7 @@ import {
   masterYourThinking,
   masterYourEmotions,
   masterYourMotivation,
+  masterYourMindset,
   masterYourFocus,
   philosophy101,
   management101,
@@ -102,8 +103,7 @@ const books = [
   },
   {
     id: "3",
-    title:
-      "Immediate Action: A 7-Day Plan to Overcome Procrastination and Regain Your Motivation",
+    title: "Immediate Action: Regain Your Motivation",
     author: "Thibaut Meurisse",
     cover: immediateaction,
     link: "https://amzn.eu/d/05vsULX",
@@ -112,8 +112,7 @@ const books = [
   },
   {
     id: "4",
-    title:
-      "Thank God for the Feedback: Using Feedback to Fuel Your Personal, Professional and Spiritual Growth",
+    title: "Thank God for the Feedback ",
     author: "Sheila Heen & Elaine Lin",
     cover: thankGodForFeedback,
     link: "https://amzn.eu/d/i7UglCO",
@@ -122,8 +121,7 @@ const books = [
   },
   {
     id: "5",
-    title:
-      "The Communication Skills Bible: 30 simple ways to improve your conversations and relationships",
+    title: "The Communication Skills Bible: 30 simple ways to improve your conversations and relationships",
     author: "Lewis J. Korg",
     cover: communicationSkillsBible,
     link: "https://amzn.eu/d/7cCEN6O",
