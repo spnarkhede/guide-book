@@ -1,22 +1,36 @@
-/* Three-column grid layout */
 .bookGrid {
-    display: grid;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .bookGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .bookGrid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
-    padding: 2rem 0;
-    max-width: var(--ifm-container-width);
-    margin: 0 auto;
   }
-  
-  /* Responsive layout for smaller screens */
-  @media (max-width: 996px) {
-    .bookGrid {
-      grid-template-columns: repeat(2, 1fr);
-    }
+}
+
+@media (max-width: 768px) {
+  .bookGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
   }
-  
-  @media (max-width: 768px) {
-    .bookGrid {
-      grid-template-columns: 1fr;
-    }
+}
+
+@media (max-width: 480px) {
+  .bookGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    padding: 0.5rem;
   }
+}

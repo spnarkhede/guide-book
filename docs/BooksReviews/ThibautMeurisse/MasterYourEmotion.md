@@ -1,12 +1,8 @@
 ---
-author: spnarkhede
-authorTitle: DevOps Engineer
-authorURL: https://github.com/spnarkhede
-authorImageURL: https://github.com/spnarkhede
+slug: strategic-mindset-a-7-day-plan-to-identify-what-matters-and-create-a-strategy-that-works-review
+title: Master your Emotion
+author: [spnarkhede]
 tags: [Master, Emotion, Books, Learing, Summary]
-last_update:
-    date: "2018-04-03"
-    author: "spnarkhede"
 --- 
 
 # 📒Master your Emotion

@@ -19,20 +19,25 @@
                 |-- blog-authors-yangshun-af2.json
                 |-- blog-bd9.json
                 |-- blog-tags-articles-f9b.json
+                |-- blog-tags-books-1eb.json
                 |-- blog-tags-concepts-f07.json
                 |-- blog-tags-df9.json
                 |-- blog-tags-docusaturus-832.json
                 |-- blog-tags-docusaurus-f20.json
+                |-- blog-tags-emotion-1b9.json
                 |-- blog-tags-facebook-f47.json
                 |-- blog-tags-hello-f96.json
                 |-- blog-tags-hola-73f.json
                 |-- blog-tags-ideas-26f.json
                 |-- blog-tags-leaders-827.json
                 |-- blog-tags-leadership-5fc.json
+                |-- blog-tags-learing-255.json
                 |-- blog-tags-learning-5c1.json
+                |-- blog-tags-master-472.json
                 |-- blog-tags-mindset-986.json
                 |-- blog-tags-psychology-dc3.json
                 |-- blog-tags-spnarkhede-a0e.json
+                |-- blog-tags-summary-0c7.json
                 |-- blog-tags-technolo-558.json
                 |-- blog-tags-technology-3f2.json
                 |-- de-blog-10b.json
@@ -75,6 +80,8 @@
             |-- site-blog-2021-08-01-mdx-blog-post-mdx-593.json
             |-- site-blog-2021-08-26-welcome-index-md-d9f.json
             |-- site-blog-2021-2021-03-08-leadershipmindset-md-a1a.json
+            |-- site-blog-books-master-your-emotion-md-d49.json
+            |-- site-blog-books-strategicmindset-md-fed.json
             |-- __plugin.json
     |-- docusaurus-plugin-content-docs
         |-- default
@@ -116,6 +123,7 @@
                 |-- tags-books-0f1.json
                 |-- tags-bootstrap-c6b.json
                 |-- tags-certificates-b95.json
+                |-- tags-concepts-e49.json
                 |-- tags-css-369.json
                 |-- tags-design-288.json
                 |-- tags-dev-ops-0ff.json
@@ -124,6 +132,7 @@
                 |-- tags-electron-f43.json
                 |-- tags-emotion-f35.json
                 |-- tags-express-7ff.json
+                |-- tags-focus-4c5.json
                 |-- tags-framework-cd6.json
                 |-- tags-git-797.json
                 |-- tags-graph-ql-fa7.json
@@ -131,9 +140,11 @@
                 |-- tags-j-query-938.json
                 |-- tags-java-script-5ac.json
                 |-- tags-layout-713.json
+                |-- tags-leadership-1b6.json
                 |-- tags-learin-d70.json
                 |-- tags-learing-42b.json
                 |-- tags-learinng-dc4.json
+                |-- tags-learning-69c.json
                 |-- tags-learnings-cda.json
                 |-- tags-library-76a.json
                 |-- tags-master-4c4.json
@@ -144,6 +155,7 @@
                 |-- tags-performance-7c2.json
                 |-- tags-professionals-f28.json
                 |-- tags-programming-c39.json
+                |-- tags-psychology-4b2.json
                 |-- tags-react-df3.json
                 |-- tags-redux-a58.json
                 |-- tags-router-03a.json
@@ -151,6 +163,7 @@
                 |-- tags-security-e36.json
                 |-- tags-state-management-ca7.json
                 |-- tags-strategic-ea8.json
+                |-- tags-strategy-d5e.json
                 |-- tags-summary-a9b.json
                 |-- tags-testing-a31.json
                 |-- tags-tools-a72.json
@@ -275,7 +288,6 @@
         |-- 2021-03-08-leadershipmindset.md
         |-- images
             |-- leadership.png
-    |-- 2021-08-01-mdx-blog-post.md
     |-- 2022
         |-- images
     |-- 2023
@@ -481,6 +493,10 @@
         |-- books.module.css
         |-- books.tsx
         |-- image
+            |-- cover
+                |-- cover.ts
+                |-- strategicmindset.jpg
+                |-- thepersonalmba.jpg
             |-- profilepic.png
             |-- profilesquare.png
         |-- index.module.css

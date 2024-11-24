@@ -22,13 +22,13 @@ export function BookCard({ title, author, cover, link, reviewSlug }: BookProps) 
         <p className={styles.author}>by {author}</p>
         <div className={styles.actions}>
           <a href={link} className={styles.buyLink} target="_blank" rel="noopener noreferrer">
-            Buy Book
+            Buy
           </a>
           <Link 
             to={reviewSlug ? `/blog/${reviewSlug}` : '#'} 
             className={styles.reviewLink}
           >
-            Read Review
+            My Review
           </Link>
         </div>
       </div>
