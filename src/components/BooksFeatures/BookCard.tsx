@@ -25,7 +25,7 @@ export function BookCard({ title, author, cover, link, reviewSlug }: BookProps) 
             Buy
           </a>
           <Link 
-            to={reviewSlug ? `/blog/${reviewSlug}` : '#'} 
+            to={reviewSlug ? `/myreviews/${reviewSlug}` : '#'} 
             className={styles.reviewLink}
           >
             My Review

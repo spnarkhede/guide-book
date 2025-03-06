@@ -108,8 +108,7 @@ const books = [
     author: "Thibaut Meurisse",
     cover: immediateaction,
     link: "https://amzn.eu/d/05vsULX",
-    reviewSlug:
-      "immediate-action",
+    reviewSlug: "immediate-action",
   },
   {
     id: "4",
@@ -117,17 +116,16 @@ const books = [
     author: "Sheila Heen & Elaine Lin",
     cover: thankGodForFeedback,
     link: "https://amzn.eu/d/i7UglCO",
-    reviewSlug:
-      "thank-god-for-the-feedback",
+    reviewSlug: "thank-god-for-the-feedback",
   },
   {
     id: "5",
-    title: "The Communication Skills Bible: 30 simple ways to improve your conversations and relationships",
+    title:
+      "The Communication Skills Bible: 30 simple ways to improve your conversations and relationships",
     author: "Lewis J. Korg",
     cover: communicationSkillsBible,
     link: "https://amzn.eu/d/7cCEN6O",
-    reviewSlug:
-      "the-communication-skills-bible",
+    reviewSlug: "the-communication-skills-bible",
   },
   {
     id: "6",
@@ -136,8 +134,7 @@ const books = [
     author: "Thibaut Meurisse",
     cover: powerfulFocus,
     link: "https://amzn.eu/d/fXcqRUB",
-    reviewSlug:
-      "powerful-focus",
+    reviewSlug: "powerful-focus",
   },
   {
     id: "7",
@@ -153,8 +150,7 @@ const books = [
     author: "Jenny Rick ",
     cover: howToTalkToAnyone,
     link: "https://amzn.eu/d/dlTrXSg",
-    reviewSlug:
-      "how-to-talk-to-anyone-and-everyone-about-anything",
+    reviewSlug: "how-to-talk-to-anyone-and-everyone-about-anything",
   },
   {
     id: "9",
@@ -166,7 +162,8 @@ const books = [
   },
   {
     id: "10",
-    title: "Thanks for the Feedback: The Science and Art of Receiving Feedback Well",
+    title:
+      "Thanks for the Feedback: The Science and Art of Receiving Feedback Well",
     author: "Douglas Stone and Sheila Heen ",
     cover: thanksForFeedback,
     link: "https://amzn.eu/d/7uZEdxX",
@@ -178,7 +175,8 @@ const books = [
     author: "Kim Scott ",
     cover: radicalCandorRevised,
     link: "https://amzn.eu/d/7KfeSPt",
-    reviewSlug: "radical-candor-how-to-get-what-you-want-by-saying-what-you-mean",
+    reviewSlug:
+      "radical-candor-how-to-get-what-you-want-by-saying-what-you-mean",
   },
   {
     id: "12",
@@ -194,11 +192,13 @@ const books = [
     author: "Kim Scott",
     cover: radicalCandorBoss,
     link: "https://amzn.eu/d/6IeIMjP",
-    reviewSlug: "radical-candor-be-a-kick-ass-boss-without-losing-your-humanity",
+    reviewSlug:
+      "radical-candor-be-a-kick-ass-boss-without-losing-your-humanity",
   },
   {
     id: "14",
-    title: "The Coaching Habit: Say Less, Ask More & Change the Way You Lead Forever Business Mentoring & Coaching",
+    title:
+      "The Coaching Habit: Say Less, Ask More & Change the Way You Lead Forever Business Mentoring & Coaching",
     author: "Michael Stanier Bungay",
     cover: coachingHabit,
     link: "https://amzn.eu/d/6ra4niN",
@@ -274,7 +274,7 @@ const books = [
     author: "John Gray",
     cover: menAreFromMarsWomenAreFromVenus,
     link: "https://amzn.eu/d/1rIu4sH",
-    reviewSlug: "men-are-from-mars,-women-are-from-venus",
+    reviewSlug: "men-are-from-mars-women-are-from-venus",
   },
   {
     id: "24",
@@ -318,7 +318,8 @@ const books = [
   },
   {
     id: "29",
-    title: "Read People Like a Book: How to Analyze, Understand, and Predict Peoples Emotions, Thoughts, Intentions, and Behaviors",
+    title:
+      "Read People Like a Book: How to Analyze, Understand, and Predict Peoples Emotions, Thoughts, Intentions, and Behaviors",
     author: "Patrick King",
     cover: readPeopleLikeABook,
     link: "https://amzn.eu/d/0t70hWb",
@@ -342,7 +343,8 @@ const books = [
   },
   {
     id: "32",
-    title: "Team Topologies: Organizing Business and Technology Teams for Fast Flow",
+    title:
+      "Team Topologies: Organizing Business and Technology Teams for Fast Flow",
     author: "Matthew Skelton and Manuel Pais",
     cover: teamTopologies,
     link: "https://amzn.eu/d/4k3eOC7",
@@ -366,7 +368,8 @@ const books = [
   },
   {
     id: "35",
-    title: "The Daily Stoic 366 Meditations on Wisdom Perseverance and the Art of Living",
+    title:
+      "The Daily Stoic 366 Meditations on Wisdom Perseverance and the Art of Living",
     author: "Ryan Holiday and Stephen Hanselman",
     cover: dailyStoic,
     link: "https://amzn.eu/d/7GChdE3",
@@ -374,9 +377,10 @@ const books = [
   },
   {
     id: "36",
-    title: "How To Talk To Anyone: 92 Little Tricks for Big Success in Relationships Communication & Social Skills",
+    title:
+      "How To Talk To Anyone: 92 Little Tricks for Big Success in Relationships Communication & Social Skills",
     author: "Leil Lowndes",
-    cover: howToTalkToAnyone2,  
+    cover: howToTalkToAnyone2,
     link: "https://amzn.eu/d/5iClvZf",
     reviewSlug: "how-to-talk-to-anyone",
   },
@@ -662,7 +666,8 @@ const books = [
   // },
   {
     id: "72",
-    title: "Hindus in Hindu Rashtra: Eighth-class Citizens and Victims of State-sanctioned Apartheid",
+    title:
+      "Hindus in Hindu Rashtra: Eighth-class Citizens and Victims of State-sanctioned Apartheid",
     author: "Anand Ranganathan",
     cover: hindusInHinduRashtra,
     link: "https://amzn.eu/d/eJGZrRY",
@@ -686,7 +691,8 @@ const books = [
   },
   {
     id: "75",
-    title: "Chanakya's 100 Best Sutras: Ageless Wisdom for Unlocking Your Potential and Achieving Your Goals",
+    title:
+      "Chanakya's 100 Best Sutras: Ageless Wisdom for Unlocking Your Potential and Achieving Your Goals",
     author: "Radhakrishnan Pillai",
     cover: chanakyas100BestSutras,
     link: "https://amzn.eu/d/6vwzI7n",
@@ -722,7 +728,7 @@ const books = [
     author: "Prateeik Prajapati",
     cover: semenRetentionMiracles,
     link: "https://amzn.eu/d/h0blfU5",
-    reviewSlug: "vaidik-dincharya-rituals",
+    reviewSlug: "semen-retention-miracles",
   },
   {
     id: "80",
@@ -730,7 +736,7 @@ const books = [
     author: "Prateeik Prajapati",
     cover: moneyworks,
     link: "https://amzn.eu/d/jbrH5Tk",
-    reviewSlug: "vaidik-dincharya-rituals",
+    reviewSlug: "moneyworks",
   },
   {
     id: "81",
@@ -738,7 +744,7 @@ const books = [
     author: "Harsh Madhusudan & Rajiv Mantri",
     cover: bharatEkNayiSoch,
     link: "https://amzn.eu/d/1WXcLBV",
-    reviewSlug: "vaidik-dincharya-rituals",
+    reviewSlug: "bharat-ek-nayi-soch",
   },
   {
     id: "82",
@@ -746,7 +752,7 @@ const books = [
     author: "Swami Ramsukhdas",
     cover: srimadBhagavadgitaVolumn1,
     link: "https://amzn.eu/d/gOgAWBt",
-    reviewSlug: "vaidik-dincharya-rituals",
+    reviewSlug: "srimad-bhagavadgita-volumn1",
   },
   {
     id: "83",
@@ -754,7 +760,7 @@ const books = [
     author: "Swami Ramsukhdas",
     cover: srimadBhagavadgitaVolumn2,
     link: "https://amzn.eu/d/7cchVby",
-    reviewSlug: "vaidik-dincharya-rituals",
+    reviewSlug: "srimad-bhagavadgita-volumn2",
   },
 ];
 

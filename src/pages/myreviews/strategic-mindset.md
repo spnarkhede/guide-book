@@ -1,5 +1,6 @@
 ---
-slug: strategic-mindset-a-7-day-plan-to-identify-what-matters-and-create-a-strategy-that-works
+id: strategic-mindset
+slug: strategic-mindset
 title: Strategic Mindset - A 7-Day Plan to Identify What Matters and Create a Strategy that Works
 authors: [spnarkhede]
 tags: [psychology, learning, strategy, mindset, focus]

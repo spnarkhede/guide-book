@@ -1,5 +1,6 @@
 ---
-slug: strategic-mindset-a-7-day-plan-to-identify-what-matters-and-create-a-strategy-that-works-review
+id: master-your-emotions
+slug: master-your-emotions
 title: Master your Emotion
 author: [spnarkhede]
 tags: [Master, Emotion, Books, Learing, Summary]

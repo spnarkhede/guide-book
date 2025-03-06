@@ -72,7 +72,6 @@ const config: Config = {
         { to: '/Portfolio/Resume', label: 'Portfolio', position: 'left' },
         { to: '/ComputerScience/Programming/Git/GitBasicNotes', label: 'Computer Science', position: 'left' },
         { to: '/books', label: 'Books', position: 'left' },
-        // { to: '/BooksReviews/ThibautMeurisse/strategicmindset', label: 'Books Reviews', position: 'left' },
         { to: '/MyLearnings/HardReset/90DaysHardReset', label: 'My Learnings', position: 'left' },
         { to: '/Languages/German/GermanCheatSheet1', label: 'Languages', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
