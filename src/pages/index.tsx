@@ -74,7 +74,7 @@ function HomepageHeader() {
           <div className={styles.profileSection}>
             <div className={styles.profilePicture}>
               <img
-                src={require("./images/profilesquare.png").default}
+                src={require("../../static/img/profilesquare.png").default}
                 alt="Profile"
               />
             </div>
