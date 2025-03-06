@@ -2,92 +2,88 @@ import React from "react";
 import Layout from "@theme/Layout";
 import { BookGrid } from "../components/BooksFeatures/BookGrid";
 import styles from "./books.module.css";
-import {
-  thepersonalmba,
-  strategicmindset,
-  immediateaction,
-  thankGodForFeedback,
-  communicationSkillsBible,
-  powerfulFocus,
-  oneSuccessHabit,
-  howToTalkToAnyone,
-  dopamineDetox,
-  thanksForFeedback,
-  radicalCandorRevised,
-  dareToLead,
-  radicalCandorBoss,
-  coachingHabit,
-  eightRulesOfLove,
-  lifeAndWorkPrinciples,
-  surroundedByIdiots,
-  surroundedByPsychopaths,
-  surroundedBySetbacks,
-  surroundedByBadBosses,
-  surroundedByNarcissists,
-  surroundedByLiars,
-  menAreFromMarsWomenAreFromVenus,
-  emotionalIntelligence,
-  mindset,
-  courageToBeDisliked,
-  neverSplitTheDifference,
-  relentless,
-  readPeopleLikeABook,
-  howToWinFriends,
-  howToStopWorrying,
-  teamTopologies,
-  fourThousandWeeks,
-  almanackOfNavalRavikant,
-  dailyStoic,
-  howToTalkToAnyone2,
-  millionaireFastlane,
-  bookOnRentalPropertyInvesting,
-  deepWork,
-  psychologyOfMoney,
-  sameAsEver,
-  eightyTwentyPrinciple,
-  crucialConversations,
-  fineArtOfSmallTalk,
-  masterYourTime,
-  masterYourBeliefs,
-  masterYourDestiny,
-  masterYourThinking,
-  masterYourEmotions,
-  masterYourMotivation,
-  // masterYourMindset,
-  masterYourFocus,
-  philosophy101,
-  management101,
-  economics101,
-  negotiating101,
-  psych101,
-  americanGovernment101,
-  usHistory101,
-  stockMarket101,
-  accounting101,
-  investing101,
-  oneHundredOneEssays,
-  conciseStrategiesOfWar,
-  conciseLawsOfHumanNature,
-  dailyLaws,
-  concise48LawsOfPower,
-  conciseArtOfSeduction,
-  ikigai,
-  invisibleWomen,
-  // atomicHabits,
-  // compoundEffect,
-  hindusInHinduRashtra,
-  corporateChanakya,
-  kautileeyaArthshastra,
-  chanakyas100BestSutras,
-  indiaThatIsBharat,
-  bossBasicsOfSanatanSanskriti,
-  vaidikDincharya,
-  semenRetentionMiracles,
-  moneyworks,
-  bharatEkNayiSoch,
-  srimadBhagavadgitaVolumn1,
-  srimadBhagavadgitaVolumn2
-} from "./books/covers";
+// Book Cover Import
+import thepersonalmba from "../../static/books/covers/thepersonalmba.jpg";
+import strategicmindset from "../../static/books/covers/strategicmindset.jpg";
+import immediateaction from "../../static/books/covers/immediateaction.jpg";
+import thankGodForFeedback from "../../static/books/covers/thankGodForFeedback.jpg";
+import communicationSkillsBible from "../../static/books/covers/communicationSkillsBible.jpg";
+import powerfulFocus from "../../static/books/covers/powerfulFocus.jpg";
+import oneSuccessHabit from "../../static/books/covers/oneSuccessHabit.jpg";
+import howToTalkToAnyone from "../../static/books/covers/howToTalkToAnyone.jpg";
+import dopamineDetox from "../../static/books/covers/dopamineDetox.jpg";
+import thanksForFeedback from "../../static/books/covers/thanksForFeedback.jpg";
+import radicalCandorRevised from "../../static/books/covers/radicalCandorRevised.jpg";
+import dareToLead from "../../static/books/covers/dareToLead.jpg";
+import radicalCandorBoss from "../../static/books/covers/radicalCandorBoss.jpg";
+import coachingHabit from "../../static/books/covers/coachingHabit.jpg";
+import eightRulesOfLove from "../../static/books/covers/eightRulesOfLove.jpg";
+import lifeAndWorkPrinciples from "../../static/books/covers/lifeAndWorkPrinciples.jpg";
+import surroundedByIdiots from "../../static/books/covers/surroundedByIdiots.jpg";
+import surroundedByPsychopaths from "../../static/books/covers/surroundedByPsychopaths.jpg";
+import surroundedBySetbacks from "../../static/books/covers/surroundedBySetbacks.jpg";
+import surroundedByBadBosses from "../../static/books/covers/surroundedByBadBosses.jpg";
+import surroundedByNarcissists from "../../static/books/covers/surroundedByNarcissists.jpg";
+import surroundedByLiars from "../../static/books/covers/surroundedByLiars.jpg";
+import menAreFromMarsWomenAreFromVenus from "../../static/books/covers/menAreFromMarsWomenAreFromVenus.jpg";
+import emotionalIntelligence from "../../static/books/covers/emotionalIntelligence.jpg";
+import mindset from "../../static/books/covers/mindset.jpg";
+import courageToBeDisliked from "../../static/books/covers/courageToBeDisliked.jpg";
+import neverSplitTheDifference from "../../static/books/covers/neverSplitTheDifference.jpg";
+import relentless from "../../static/books/covers/relentless.jpg";
+import readPeopleLikeABook from "../../static/books/covers/readPeopleLikeABook.jpg";
+import howToWinFriends from "../../static/books/covers/howToWinFriends.jpg";
+import howToStopWorrying from "../../static/books/covers/howToStopWorrying.jpg";
+import teamTopologies from "../../static/books/covers/teamTopologies.jpg";
+import fourThousandWeeks from "../../static/books/covers/fourThousandWeeks.jpg";
+import almanackOfNavalRavikant from "../../static/books/covers/almanackOfNavalRavikant.jpg";
+import dailyStoic from "../../static/books/covers/dailyStoic.jpg";
+import howToTalkToAnyone2 from "../../static/books/covers/howToTalkToAnyone2.jpg";
+import millionaireFastlane from "../../static/books/covers/millionaireFastlane.jpg";
+import bookOnRentalPropertyInvesting from "../../static/books/covers/bookOnRentalPropertyInvesting.jpg";
+import deepWork from "../../static/books/covers/deepWork.jpg";
+import psychologyOfMoney from "../../static/books/covers/psychologyOfMoney.jpg";
+import sameAsEver from "../../static/books/covers/sameAsEver.jpg";
+import eightyTwentyPrinciple from "../../static/books/covers/eightyTwentyPrinciple.jpg";
+import crucialConversations from "../../static/books/covers/crucialConversations.jpg";
+import fineArtOfSmallTalk from "../../static/books/covers/fineArtOfSmallTalk.jpg";
+import masterYourTime from "../../static/books/covers/masterYourTime.jpg";
+import masterYourBeliefs from "../../static/books/covers/masterYourBeliefs.jpg";
+import masterYourDestiny from "../../static/books/covers/masterYourDestiny.jpg";
+import masterYourThinking from "../../static/books/covers/masterYourThinking.jpg";
+import masterYourEmotions from "../../static/books/covers/masterYourEmotions.jpg";
+import masterYourMotivation from "../../static/books/covers/masterYourMotivation.jpg";
+import masterYourFocus from "../../static/books/covers/masterYourFocus.jpg";
+import philosophy101 from "../../static/books/covers/philosophy101.jpg";
+import management101 from "../../static/books/covers/management101.jpg";
+import economics101 from "../../static/books/covers/economics101.jpg";
+import negotiating101 from "../../static/books/covers/negotiating101.jpg";
+import psych101 from "../../static/books/covers/psych101.jpg";
+import americanGovernment101 from "../../static/books/covers/americanGovernment101.jpg";
+import usHistory101 from "../../static/books/covers/usHistory101.jpg";
+import stockMarket101 from "../../static/books/covers/stockMarket101.jpg";
+import accounting101 from "../../static/books/covers/accounting101.jpg";
+import investing101 from "../../static/books/covers/investing101.jpg";
+import oneHundredOneEssays from "../../static/books/covers/oneHundredOneEssays.jpg";
+import conciseStrategiesOfWar from "../../static/books/covers/conciseStrategiesOfWar.jpg";
+import conciseLawsOfHumanNature from "../../static/books/covers/conciseLawsOfHumanNature.jpg";
+import dailyLaws from "../../static/books/covers/dailyLaws.jpg";
+import concise48LawsOfPower from "../../static/books/covers/concise48LawsOfPower.jpg";
+import conciseArtOfSeduction from "../../static/books/covers/conciseArtOfSeduction.jpg";
+import ikigai from "../../static/books/covers/ikigai.jpg";
+import invisibleWomen from "../../static/books/covers/invisibleWomen.jpg";
+import hindusInHinduRashtra from "../../static/books/covers/hindusInHinduRashtra.jpg";
+import corporateChanakya from "../../static/books/covers/corporateChanakya.jpg";
+import kautileeyaArthshastra from "../../static/books/covers/kautileeyaArthshastra.jpg";
+import chanakyas100BestSutras from "../../static/books/covers/chanakyas100BestSutras.jpg";
+import indiaThatIsBharat from "../../static/books/covers/indiaThatIsBharat.jpg";
+import bossBasicsOfSanatanSanskriti from "../../static/books/covers/bossBasicsOfSanatanSanskriti.jpg";
+import vaidikDincharya from "../../static/books/covers/vaidikDincharya.jpg";
+import semenRetentionMiracles from "../../static/books/covers/semenRetentionMiracles.jpg";
+import moneyworks from "../../static/books/covers/moneyworks.jpg";
+import bharatEkNayiSoch from "../../static/books/covers/bharatEkNayiSoch.jpg";
+import srimadBhagavadgitaVolumn1 from "../../static/books/covers/srimadBhagavadgitaVolumn1.jpg";
+import srimadBhagavadgitaVolumn2 from "../../static/books/covers/srimadBhagavadgitaVolumn2.jpg";
 
 const books = [
   {
