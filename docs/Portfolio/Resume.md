@@ -54,7 +54,7 @@ High-performing IT professional with over 5 years of experience, demonstrating a
 - Actively involved in UX maintenance and automated test processes to validate frontend functionality, and identified issues early in the development lifecycle
 - Conducted end-to-end project management, including requirement gathering, user story creation, project setup, and seamless project delivery
 
-### Bosch Research AG
+### Bosch Rexroth AG
 **Software Application Developer -Sales and Marketing** | Ulm, DE | September 2020 – June 2022
 
 **Projects:** Drove the development and deployment of key applications, including Smart Project Management (SPM), Application System Platform Selectors (ASPS), and Virtual Streaming Conference Platform (VSCP), to support business operations within the Area Sales and Distribution department (DC-MH/SDI).

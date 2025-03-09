@@ -55,4 +55,22 @@ In this video, former FBI agent Joe Navarro shares insights from his 25-year car
 - **Observation and Consistency Are Key:** Effective reading of body language relies on watching for consistent patterns and changes over time rather than isolated gestures.
 - **Practical Application in Daily Life:** Navarro concludes that understanding nonverbal cues enhances how we communicate, form relationships, and understand others.
 ::: 
-In essence, Navarro’s approach to nonverbal communication is about assessing subtle changes and patterns over time, not just making assumptions based on popular myths. This skill, refined over years, is invaluable for professions requiring strong interpersonal insights, such as law enforcement and psychology, but also holds practical value in everyday life and personal interactions.
+In essence, Navarro’s approach to nonverbal communication is about assessing subtle changes and patterns over time, not just making assumptions based on popular myths. This skill, refined over years, is invaluable for professions requiring strong interpersonal insights, such as law enforcement and psychology, but also holds practical value in everyday life and personal interactions. 
+
+
+# 🎙️ The Future of AI Development
+
+![Podcast Cover](https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=300&h=300&fit=crop)
+
+## Episode 42 • Weekly Tech Insights
+*Duration: 58:23 | Released: March 15, 2024*
+
+---
+# My Podcast
+
+Check out this episode below: 
+
+<iframe src="https://open.spotify.com/embed/episode/0jh6xZcioQg8MoBsTX342x?utm_source=generator&t=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+<!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0jh6xZcioQg8MoBsTX342x?utm_source=generator&t=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+Enjoy listening!
